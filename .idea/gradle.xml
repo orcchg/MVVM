@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/di_core_lib" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/core/network/api" />
+            <option value="$PROJECT_DIR$/core/network/impl" />
+            <option value="$PROJECT_DIR$/design" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/github_repo" />
+            <option value="$PROJECT_DIR$/feature/github_repo/api" />
+            <option value="$PROJECT_DIR$/feature/github_repo/fake" />
+            <option value="$PROJECT_DIR$/feature/github_repo/github_repo_demo" />
+            <option value="$PROJECT_DIR$/feature/github_repo/impl" />
+            <option value="$PROJECT_DIR$/feature/github_repo/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_details" />
+            <option value="$PROJECT_DIR$/feature/github_user_details/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_details/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_details/github_user_details_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_details/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_details/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers/github_user_followers_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_followers/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists/github_user_gists_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_gists/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_list" />
+            <option value="$PROJECT_DIR$/feature/github_user_list/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_list/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_list/github_user_list_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_list/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_list/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations/github_user_organizations_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_organizations/ui" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile/api" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile/fake" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile/github_user_profile_demo" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile/impl" />
+            <option value="$PROJECT_DIR$/feature/github_user_profile/ui" />
+            <option value="$PROJECT_DIR$/lint-rules" />
+            <option value="$PROJECT_DIR$/utility" />
+            <option value="$PROJECT_DIR$/utility/android" />
+            <option value="$PROJECT_DIR$/utility/pure" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="title_github_repo">GithubRepo</string>
+    <string name="title_github_user_details">GithubUserDetails</string>
+    <string name="title_github_user_followers">GithubUserFollowers</string>
+    <string name="title_github_user_gists">GithubUserGists</string>
+    <string name="title_github_user_list">GithubUserList</string>
+    <string name="title_github_user_organizations">GithubUserOrganizations</string>
+    <string name="title_github_user_profile">GithubUserProfile</string>
+</resources>
