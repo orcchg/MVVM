@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.30")
+    implementation(gradleBuild.kotlin.plugin)
 }

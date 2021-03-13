@@ -1,9 +1,3 @@
 plugins {
-    id("android-library-convention")
-}
-
-dependencies {
-    implementation(
-        project(":app")
-    )
+    id("convention.android-lib")
 }

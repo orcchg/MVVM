@@ -1,3 +1,3 @@
 plugins {
-    id("android-library-convention")
+    id("convention.android-lib")
 }

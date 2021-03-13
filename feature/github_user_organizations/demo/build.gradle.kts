@@ -1,3 +1,3 @@
 plugins {
-    id("android-application-convention")
+    id("convention.android-app")
 }
