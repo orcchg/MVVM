@@ -4,7 +4,6 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
     }
 
     resolutionStrategy {
@@ -12,9 +11,9 @@ pluginManagement {
             val pluginId = requested.id.id
 
             if (pluginId.startsWith("org.jetbrains.kotlin")) {
-                useVersion("1.4.30")
+                useVersion("1.4.31")
             } else if (pluginId.startsWith("com.android.")) {
-                useModule("com.android.tools.build:gradle:7.0.0-alpha08")
+                useModule("com.android.tools.build:gradle:7.0.0-alpha12")
             } else if (pluginId.startsWith("com.diffplug.spotless")) {
                 useVersion("5.7.0")
             }
@@ -28,7 +27,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
     }
 
     versionCatalogs {
@@ -63,7 +61,7 @@ dependencyResolutionManagement {
         create("libs") {
             version("coroutines", "1.4.2")
             version("glide", "4.11.0")
-            version("kotlin", "1.4.30")
+            version("kotlin", "1.4.31")
             version("timber", "4.7.1")
             alias("coroutines-core").to("org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("coroutines")
             alias("coroutines-android").to("org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("coroutines")
