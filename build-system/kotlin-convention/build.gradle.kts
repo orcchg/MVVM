@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleBuild.kotlin.plugin)
+    implementation(gradleBuild.ktgp)
 }

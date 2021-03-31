@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleBuild.android.plugin)
-    implementation(gradleBuild.kotlin.plugin)
+    implementation(gradleBuild.agp)
+    implementation(gradleBuild.ktgp)
     implementation("com.orcchg.boilerplate.mvvm:kotlin-convention")
 }

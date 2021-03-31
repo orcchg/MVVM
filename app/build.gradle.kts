@@ -12,15 +12,6 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.0.0-beta01"
     }
-//    dynamicFeatures = mutableSetOf(
-//        ":feature:github_repo:github_repo:ui",
-//        ":feature:github_user_details:github_user_details:ui",
-//        ":feature:github_user_followers:github_user_followers:ui",
-//        ":feature:github_user_gists:github_user_gists:ui",
-//        ":feature:github_user_list:github_user_list:ui",
-//        ":feature:github_user_organizations:github_user_organizations:ui",
-//        ":feature:github_user_profile:github_user_profile:ui"
-//    )
 }
 
 dependencies {

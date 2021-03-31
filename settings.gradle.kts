@@ -11,7 +11,7 @@ pluginManagement {
             val pluginId = requested.id.id
 
             if (pluginId.startsWith("org.jetbrains.kotlin")) {
-                useVersion("1.4.31")
+                useVersion("1.4.30")
             } else if (pluginId.startsWith("com.android.")) {
                 useModule("com.android.tools.build:gradle:7.0.0-alpha12")
             } else if (pluginId.startsWith("com.diffplug.spotless")) {
@@ -27,10 +27,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 
     versionCatalogs {
-        create("android") {
+        create("androidx") {
             version("annotation", "1.1.0")
             version("appcompat", "1.2.0")
             version("core-ktx", "1.3.2")
@@ -61,7 +62,7 @@ dependencyResolutionManagement {
         create("libs") {
             version("coroutines", "1.4.2")
             version("glide", "4.11.0")
-            version("kotlin", "1.4.31")
+            version("kotlin", "1.4.30")
             version("timber", "4.7.1")
             alias("coroutines-core").to("org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("coroutines")
             alias("coroutines-android").to("org.jetbrains.kotlinx", "kotlinx-coroutines-android").versionRef("coroutines")
